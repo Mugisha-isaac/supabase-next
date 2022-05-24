@@ -1,5 +1,8 @@
 module.exports = {
-  content: [],
+  purge:[
+    './pages/**/*.js',
+    './components/**/*js'
+  ],
   theme: {
     extend: {},
   },
